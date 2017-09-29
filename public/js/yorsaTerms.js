@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
-    $.getJSON('/dictionary-api', printTerms);
+    $.getJSON('/yorsa-api', printTerms);
     $('form').submit(function (e) {
         e.preventDefault();
-        $.post('/dictionary-api', {term: $('#term').val(), defined: $('#defined').val()}, printTerms);
+        $.post('/yorsa-api', {term: $('#term').val(), defined: $('#defined').val()}, printTerms);
         this.reset();
     });
 
@@ -17,7 +17,7 @@ function printTerms(terms) {
     });
     $('dt').off('dblclick').dblclick(function() {
         $.ajax({
-            url: '/dictionary-api/' + $(this).text(),
+            url: '/yorsa-api/' + $(this).text(),
             type: 'DELETE',
             success: printTerms
         });

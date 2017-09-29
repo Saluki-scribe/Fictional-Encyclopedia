@@ -1,0 +1,17 @@
+[
+    {
+        "term": "Prince",
+        "defined": "Almost always the oldest and most powerful vampire in a clan, a prince is the male head of a vampire family unit. He serves as the ultimate decision-maker and protector of his family. The prince is often the father of most or all of the other clan members, especially among older elite clans.",
+        "category": "Vampires"
+    },
+    {
+        "term": "Queen",
+        "defined": "The female counterpart of the prince, a queen is the head of a vampire family unit called a clan. Queens are less likely than princes to be the parent of all, or even most clan members, and in traditional Yorsan society, they are far less common than princes.",
+        "category": "Vampires"
+    },
+    {
+        "term": "Clan",
+        "defined": "A common term for a traditional vampire family unit, often characterized by a strict heirarchy and a high instance of intra-clan violence almost akin to gangs or military units. Most modernized vampires don't refer to their families as a clan, even in Yorsa.",
+        "category": "Vampires"
+    }
+]

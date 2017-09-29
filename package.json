@@ -1,0 +1,30 @@
+{
+  "name": "yorsa-encyclopedia",
+  "version": "1.0.0",
+  "description": "A collection of terms, definitions, characters, etc. in the fictional world of Yorsa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saluki-scribe/Fictional-Encyclopedia.git"
+  },
+  "keywords": [
+    "yorsa",
+    "fiction",
+    "fantasy",
+    "encyclopedia"
+  ],
+  "author": "Tara Nelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saluki-scribe/Fictional-Encyclopedia/issues"
+  },
+  "homepage": "https://github.com/Saluki-scribe/Fictional-Encyclopedia#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.0"
+  }
+}

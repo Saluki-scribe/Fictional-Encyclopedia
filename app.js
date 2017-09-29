@@ -1,14 +1,15 @@
 var express = require("express");
 var cors = require("cors");
+var bodyParser = require("body-parser");
 var terms = require("./yorsaTerms.json");
 var app = express();
 
-console.log(terms);
-
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false}));
 
 app.use(function(req, res, next) {
 
-    console.log(`${req.method} request for ${req.url}`);
+    console.log(`${req.method} request for ${req.url} - ${JSON.stringify(req.body)} `);
     next();
 });
 
